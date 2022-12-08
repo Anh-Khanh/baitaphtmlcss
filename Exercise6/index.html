@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Exercise 6</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapp">
+        <h1>REGISTER</h1>
+        <div class="form_resgister">
+          <form action="">
+            <div class="resgister_name resgister">
+              <div class="column25"><label for="name">Name*</label></div>
+              <div class="column75">
+                <input type="text" id="name" placeholder="Enter your name..." />
+              </div>
+            </div>
+            <div class="resgister_sex resgister">
+              <div class="column25">
+                <label for="sex">Sex</label>
+              </div>
+              <div class="column75 gender">
+                <div>
+                  <input type="radio" name="sex" id="Male" value="Male" />
+                  <label for="Male">Male</label>
+                </div>
+                <div>
+                  <input type="radio" name="sex" id="Females" value="Females" />
+                  <label for="Females">Females</label>
+                </div>
+              </div>
+            </div>
+            <div class="resgister_dateofbirth resgister">
+              <div class="column25">
+                <label for="">Date of birth*</label>
+              </div>
+              <div class="column75 birth">
+                <select name="" id="">
+                  <option value="" disabled selected>Day</option>
+                  <option value="">1</option>
+                </select>
+                <select name="" id="">
+                  <option value="" disabled selected>Month</option>
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
+                </select>
+                <select name="" id="">
+                  <option value="" disabled selected>Year</option>
+                  <option value="">1</option>
+                </select>
+              </div>
+            </div>
+            <div class="resgister_pass resgister">
+              <div class="column25"><label for="pass">Password*</label></div>
+              <div class="column75">
+                <input type="text" id="pass" placeholder="Enter your password..." />
+              </div>
+            </div>
+            <div class="resgister_confirm--pass resgister">
+              <div class="column25">
+                <label for="confirm_pass">Confirm Password*</label>
+              </div>
+              <div class="column75">
+                <input id="confirm_pass" type="text" />
+              </div>
+            </div>
+            <div class="resgister_email resgister">
+              <div class="column25">
+                <label for="email">Email*</label>
+              </div>
+              <div class="column75">
+                <input id="email" type="text" />
+              </div>
+            </div>
+            <div class="resgister_massage resgister">
+              <div class="column25">
+                <label for="massage">Message</label>
+              </div>
+              <div class="column75">
+                <textarea name="" id="massage" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="resgister">
+                <div class="column25"></div>
+                <div class="column75">
+                    <input type="checkbox">
+                    <label for="">I accept Terms and Conditions</label>
+                </div>
+            </div>
+            <div class="submitform">
+                <input type="submit" value="Reset">
+                <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
