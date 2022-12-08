@@ -9,10 +9,6 @@ html {
   font-size: 62.5%;
   background-color: rgb(216, 215, 212);
 }
-main {
-  height: 100vh;
-  width: 100vw;
-}
 .wrapp {
   margin-right: 10%;
   margin-left: 10%;
@@ -24,6 +20,7 @@ h1 {
 }
 .resgister {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 10px 0px;
 }
@@ -59,14 +56,14 @@ label {
   border: 1px solid gray;
 }
 
-input[type="text"] {
+input[type="text"],input[type="password"] {
   padding-left: 10px;
   width: 100%;
   height: 30px;
   border-radius: 5px;
   border: 1px solid gray;
 }
-input[type="submit"] {
+input[type="button"] {
   padding: 10px 0;
   width: 15%;
   border-radius: 5px;
@@ -78,6 +75,9 @@ input[type="submit"] {
   cursor: pointer;
 }
 .submitform {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 .resgister_massage textarea {
@@ -102,10 +102,10 @@ input[type="submit"] {
     margin-left: 20px;
   }
   .column75 {
-    width: 60%;
+    width: 70%;
   }
   .column25 {
-    width: 40%;
+    width: 30%;
   }
   .gender div {
     width: 40%;
