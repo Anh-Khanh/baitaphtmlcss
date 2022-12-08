@@ -64,8 +64,8 @@ input[type="text"],input[type="password"] {
   border: 1px solid gray;
 }
 input[type="button"] {
-  padding: 10px 0;
-  width: 15%;
+  padding: 15px 0;
+  width: 20%;
   border-radius: 5px;
   margin-right: 10px;
   margin-left: 10px;
@@ -79,6 +79,7 @@ input[type="button"] {
   justify-content: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 .resgister_massage textarea {
   width: 100%;
@@ -95,12 +96,16 @@ input[type="button"] {
     display: flex;
     justify-content: space-between;
   }
+  input[type="button"]{
+    width: 30%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .wrapp {
     margin-right: 20px;
     margin-left: 20px;
   }
+   
   .column75 {
     width: 70%;
   }
@@ -115,6 +120,9 @@ input[type="button"] {
   .resgister {
     flex-wrap: wrap;
   }
+  .submitform{
+    flex-wrap: wrap;
+  }
   .column75 {
     width: 100%;
   }
@@ -124,8 +132,7 @@ input[type="button"] {
   .gender div {
     width: 30%;
   }
-  input[type="submit"] {
-    padding: 10px 0;
+  input[type="button"]{
     width: 40%;
   }
 }
