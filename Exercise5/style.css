@@ -61,6 +61,8 @@ nav {
 }
 .content_wrapp p {
   font-size: 1.5rem;
+  margin: 5px 0px;
+  line-height: 18px;
 }
 section {
   width: 50%;
@@ -73,6 +75,7 @@ section {
   background: rgb(60, 226, 245);
   margin-right: 10px;
 }
+
 section .content {
   display: flex;
   margin-bottom: 10px;
