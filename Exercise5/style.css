@@ -20,6 +20,8 @@ header h1 {
   border-bottom: 2px solid #333;
 }
 nav {
+  margin-left: -5px;
+  margin-right: -5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -27,26 +29,40 @@ nav {
   margin-bottom: 20px;
 }
 .square {
-  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 10px;
-  width: 24%;
+  width: 23%;
   height: 200px;
+
   background: rgb(38, 161, 227);
 }
 .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 2px solid #333;
-  padding: 5px;
+  padding: 20px 0;
 }
 
 .modal {
-  display: flex;
+  /* display: flex; */
+  display: inline-block;
+}
+.img_first{
+  float: left;
+  margin-right: 26px;
+  margin-left: -2px;
+}
+.img_last{
+  float: right;
+  margin-left: 26px;
+  margin-right: -2px;
 }
 .modal_content {
   flex: 1;
-  margin: 0 10px;
   font-size: 1.5rem;
 }
-.modal_content h2 {
+.modal_content h2, .content h2 {
   font-size: 1.6rem;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -75,17 +91,21 @@ section {
   background: rgb(60, 226, 245);
   margin-right: 10px;
 }
-
+.title {
+  margin-left: -10px;
+  margin-right: -10px;
+}
 section .content {
   display: flex;
   margin-bottom: 10px;
   flex-wrap: nowrap;
   margin-left: 10px;
+  margin-right: 10px;
   text-align: left;
 }
 .modal .content {
-  width: 50%;
-  margin-left: 10px;
+  /* width: 50%; */
+  /* margin-left: 10px; */
 }
 .title {
   display: flex;
@@ -106,7 +126,7 @@ section .content {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   nav {
-    margin: 20px 5px;
+    margin: 20px 0px;
   }
   .wrapp {
     margin-left: 5%;
@@ -123,6 +143,10 @@ section .content {
   section {
     width: 100%;
   }
+  .image {
+    width: 48%;
+  }
+ 
   .content_detail {
     width: 100%;
   }
@@ -134,7 +158,7 @@ section .content {
     flex-wrap: wrap;
   }
   .modal_content {
-    margin: 0 10px 0 0;
+    /* margin: 0 10px 0 0; */
   }
 }
 
@@ -145,6 +169,10 @@ section .content {
   }
   .modal {
     flex-direction: column;
+  }
+  .img_first,.img_last{
+    float: none;
+    margin-left: 0;
   }
   .image {
     width: 100%;

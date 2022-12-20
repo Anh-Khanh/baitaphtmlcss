@@ -63,7 +63,7 @@ input[type="text"],input[type="password"] {
   border-radius: 5px;
   border: 1px solid gray;
 }
-input[type="button"] {
+input[type="button"],input[type="submit"] {
   padding: 15px 0;
   width: 20%;
   border-radius: 5px;
@@ -96,7 +96,7 @@ input[type="button"] {
     display: flex;
     justify-content: space-between;
   }
-  input[type="button"]{
+  input[type="button"],input[type="submit"]{
     width: 30%;
   }
 }
@@ -132,7 +132,7 @@ input[type="button"] {
   .gender div {
     width: 30%;
   }
-  input[type="button"]{
+  input[type="button"],input[type="submit"]{
     width: 40%;
   }
 }

@@ -35,7 +35,6 @@ section{
 .content {
     padding: 10px 0px;
     display: flex;
-    align-items: center;
     border-bottom: 2px solid #333;
     flex: 1;
     margin-right: 20px;
@@ -65,6 +64,11 @@ section{
 @media only screen and (max-width: 600px) {
     .wrapp{
         margin: 0;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .content .content_image {
         min-width: 100px;
